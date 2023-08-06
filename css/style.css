@@ -1,0 +1,157 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------------------ */
+h2{
+    background-color: blue;
+    color: red;
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #000;
+}
+span{
+    color: darkolivegreen;
+    background-color: chocolate;
+    font-size: 22px;
+}
+.task1 {
+}
+
+.text1 {
+    background-color: green;
+    width: 300px;
+    padding: 25px;
+}
+
+.text2{
+    background-color: firebrick;
+    width: 300px ;
+    height: 100px;
+    overflow: auto;
+    margin: 0 auto;
+
+}
+.text3{
+    background-color: cornflowerblue;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 24px;
+    color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 3px 4px chartreuse;
+}
+.hello {
+    background-color: burlywood;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    max-width: 90px;
+    padding: 5px 10px;
+}
+
+.text {
+    background-color: darkgreen;
+    color: red;
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
+}
+ a{
+    display: inline-block;
+    margin-bottom: 30px;
+    background-color: aquamarine;
+ }
+
+ p{
+    max-width: 100px;
+    display: inline-block;
+    background-color: fuchsia;
+    margin-left: 30px;
+    padding: 10px;
+ }
+
+ .top-div {
+    background-color: cadetblue;
+    margin-top: 20px;
+    padding: 30px;
+ }
+
+ .bottom-div {
+    margin-top: -50px;
+    background-color: rgba(233, 150, 122,0.7);
+    margin-bottom: 50px;
+    padding: 30px;
+ }
+
+ .big-text{
+    background-color: yellow;
+    max-height: 200px;
+    display: inline-block;
+    overflow: auto;
+ }
